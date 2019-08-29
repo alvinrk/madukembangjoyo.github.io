@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 40%;
+      border-radius: 8px;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20em;
+      background-color: #FFFFFF;
+    }
+
+    img {
+      border-radius: 8px 8px 0 0;
+    }
+
+    .container {
+      padding: 2px 16px;
+      text-align: center;
+    }
+    
+    .button {
+      background-color: #000000;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    p, h4, b {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #F5FFFA;
+    }
+
+    footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       color: white;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       color: #808080;
+    }
+
+    .fa {
+      font-size: 50px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .fa:hover {
+      color: darkblue;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="card">
+      <img src="kj.png" alt="Avatar" style="width:100%">
+      <div class="container">
+        <img style="width: 150px; height: 50px; margin: 10px;" src="kj-logo.png">
+        <h4>Madu Super</h4> 
+        <p style="color: #696969; font-size: 12px; padding: 5px;">Madu Super memperkuat fungsi otak dan jantung, memperbaiki sel tubuh yang rusak, dapat dikonsumsi penderita diabetes.</p>
+
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+        <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-thumbs-down");
+        }
+        </script>
+
+        <button class="button" onclick="window.location.href='https://api.whatsapp.com/send?phone=6285607551162&text=Halo,%20saya%20ingin%20pesan%20Madu%20Super'">
+          Beli Sekarang
+        </button> 
+      </div>
+    </div>
+
+    <footer>
+      <p>Provide by Peruri 2019</p>
+    </footer>
+</body>
+</html>
